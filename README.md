@@ -14,10 +14,16 @@
   - Headsets values (position, rotation) are passed to XRIT through InputSystem
 
 ## Use
-- Recommand using the XRIT prefab rig with XRIT Starter Asset Samples (get from Unity Package Manager)
-- Put the XRIT prefab into scenes
-- Add the included Prefab in the scene (does not need to be parented)
-- Follow [unity-webxr-export page](https://de-panther.github.io/unity-webxr-export/ ) on setting up building
+- **Use** the XRIT prefab rig with XRIT Starter Asset Samples (get from Unity Package Manager) **\<Optional, Recommanded\>**
+  - **Put** the XRIT prefab into scenes
+- **Follow**, **until before build**, [unity-webxr-export page](https://de-panther.github.io/unity-webxr-export/Documentation/Getting-Started.html)
+  - **Note** webxr-interaction is not used or required (and can be omited)
+- **Import**
+  - [![openupm](https://img.shields.io/npm/v/com.someone-s.webxr-xrit-bridge?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.someone-s.webxr-xrit-bridge/)
+  - **Add** the included **Prefab** in scenes (does not need to be parented)
+- **Continue** following [unity-webxr-export page](https://de-panther.github.io/unity-webxr-export/Documentation/Getting-Started.html)
+  - **Note** some web server throws error relating to compression, 
+    if so, disable Compression at ``Project Settings > Player > Web tab(the icon left of Android) > Publishing Settings > Compression Format``
 
 ## Missing features
 - Hand tracking (bridge WebXR to com.unity.xr.hands)

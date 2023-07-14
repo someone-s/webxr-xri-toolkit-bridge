@@ -16,4 +16,4 @@
 - Recommand using the XRIT prefab rig with XRIT Starter Asset Samples (get from Unity Package Manager)
 - Put the XRIT prefab into scenes
 - Add the included Prefab in the scene (does not need to be parented)
-- Follow (https://de-panther.github.io/unity-webxr-export/)[unity-webxr-export page] on setting up building
+- Follow [unity-webxr-export page](https://de-panther.github.io/unity-webxr-export/ ) on setting up building

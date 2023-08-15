@@ -1,6 +1,6 @@
 {
   "name": "com.someone-s.webxr-xrit-bridge",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "displayName": "WebXR Export to XR Interaction Toolkit Bridge",
   "description": "Package to correspond values from De-Panther's unity-webxr-export to InputSystem and XR Interaction Toolkit",
   "unity": "2021.3",
